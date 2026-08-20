@@ -20,8 +20,8 @@ import { getApiBaseUrl } from "@/lib/api"
 import { useAuth } from "@/hooks/useAuth"
 import { useHasRunningGames } from "@/hooks/use-running-games"
 import { useOnlineStatus } from "@/hooks/use-online-status"
-import { isOfflineAllowedPath } from "@/lib/navigation"
 import { OfflineLockout } from "@/components/OfflineLockout"
+import { SunsetBanner } from "@/components/SunsetBanner"
 
 const UpdateNotification = lazy(() => import("@/components/UpdateNotification").then((m) => ({ default: m.UpdateNotification })))
 const KeyboardShortcutsDialog = lazy(() => import("@/components/KeyboardShortcutsDialog").then((m) => ({ default: m.KeyboardShortcutsDialog })))
@@ -385,6 +385,7 @@ export function AppLayout() {
             <div className="relative min-h-full w-full">
               <ScrollProgress />
               <main className="mx-auto w-full max-w-7xl px-4 pt-24 pb-28 md:px-8 xl:px-10">
+                <SunsetBanner />
                 {/* `key={pathname}` remounts on every route change so the
                     entering page replays the uc-page-transition fade-up.
                     The wrapper claims `min-height: 100%` so React can't
