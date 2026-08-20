@@ -1,12 +1,12 @@
 # Changelog
 
-## v2.7.4 — Sunset Advisory & Migration to Union.Manifold · 2026-08-20
+## v2.7.5 — Sunset Advisory & Migration to Union.Manifold · 2026-08-20
 
-UnionCrax.Direct is being sunset on September 4, 2026. Please migrate to the actively maintained community fork Union.Manifold.
+UnionCrax.Direct is being sunset on October 5, 2026. Please migrate to the actively maintained community fork Union.Manifold.
 
 ### Sunset Notice
 
-- **Added: UC.Direct Sunset Advisory banner (Ends September 4, 2026).** Due to unsustainably high storage infrastructure costs for UCFiles, official UnionCrax.Direct backend support and development will permanently shut down on September 4, 2026.
+- **Added: UC.Direct Sunset Advisory banner (Ends October 5, 2026).** Due to unsustainably high storage infrastructure costs for UCFiles, official UnionCrax.Direct backend support and development will permanently shut down on October 5, 2026.
 - **Recommended: Migrate to Union.Manifold.** We officially recommend switching to **Union.Manifold** (`https://github.com/fyiel/Union.Manifold`), an open-source, actively maintained fork of UC.Direct created by fyiel that supports modern third-party mirrors.
 
 ## v2.7.3 — Linux Icon & Blocked-Download Clarity

@@ -9,10 +9,10 @@ export function SunsetBanner() {
           <AlertTriangle className="h-5 w-5 shrink-0 text-amber-400 mt-0.5 sm:mt-0" />
           <div className="text-xs leading-relaxed text-foreground/90">
             <span className="font-bold text-amber-300 mr-1.5 uppercase tracking-wide text-[11px]">
-              Sunset Advisory (Ends Sept 4, 2026):
+              Sunset Advisory (Ends Oct 5, 2026):
             </span>
             <span>
-              Official UC.Direct development and support ends on September 4, 2026 due to storage costs. Please migrate to the actively maintained fork{" "}
+              Official UC.Direct development and support ends on October 5, 2026 due to storage costs. Please migrate to the actively maintained fork{" "}
               <strong className="text-primary font-semibold">Union.Manifold</strong>.
             </span>
           </div>
